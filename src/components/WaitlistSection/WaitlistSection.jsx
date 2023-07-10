@@ -1,10 +1,21 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 import waitlistImage from '@/assets/images/waitlist-image.svg';
 
 export function WaitlistSection() {
+  const router = useRouter();
+
+  const handleFreelancerButtonClick = () => {
+    router.push('/waitlist/freelancer');
+  };
+
+  const handleClientButtonClick = () => {
+    router.push('/waitlist/client');
+  };
+
   return (
-    <div className='mt-16 flex flex-col place-items-center gap-24 py-12 md:mt-40 md:flex-row md:py-24'>
+    <div className='mt-16 flex flex-col place-items-center gap-24 py-12 md:flex-row md:py-24'>
       <div className='grid gap-4'>
         <div className='grid'>
           <h2 className='text-center text-3xl md:text-4xl'>
@@ -18,10 +29,16 @@ export function WaitlistSection() {
           to big transformations.
         </p>
         <div className='flex justify-between pt-4'>
-          <button className='border-2 border-[#108239] px-4 py-6 text-[#108239] hover:rounded-md hover:bg-[#108239] hover:text-white'>
+          <button
+            className='border-2 border-[#108239] px-4 py-6 text-[#108239] hover:rounded-md hover:bg-[#108239] hover:text-white'
+            onClick={handleFreelancerButtonClick}
+          >
             Become a Freelancer
           </button>
-          <button className='rounded-md bg-[#108239] px-8 py-6 text-white hover:rounded-none hover:border-2 hover:border-[#108239] hover:bg-white hover:text-[#108239]'>
+          <button
+            className='rounded-md bg-[#108239] px-8 py-6 text-white hover:rounded-none hover:border-2 hover:border-[#108239] hover:bg-white hover:text-[#108239]'
+            onClick={handleClientButtonClick}
+          >
             Become a Client
           </button>
         </div>
