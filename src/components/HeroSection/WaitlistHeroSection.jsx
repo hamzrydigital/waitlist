@@ -23,11 +23,10 @@ export function WaitlistHeroSection({
   return (
     <header className='relative mx-auto flex max-w-7xl place-content-center px-6 py-20 md:py-32'>
       <Image
-        className='bg-gray-500 '
         src={heroImage}
         fill
         alt='Hero Image'
-        style={{ objectFit: 'cover' }}
+        style={{ objectFit: 'cover', opacity: '85%' }}
         placeholder='blur'
       />
 

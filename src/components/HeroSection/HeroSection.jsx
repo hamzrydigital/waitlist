@@ -31,7 +31,7 @@ export function HeroSection() {
           src={heroHome}
           fill
           alt='Hero Image'
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: 'cover', opacity: '0.9' }}
           placeholder='blur'
         />
       </div>
