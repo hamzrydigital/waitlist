@@ -74,3 +74,17 @@ export function PaymentChip({ amount, className }) {
     </div>
   );
 }
+  export function SpaceChip({ amount, className }) {
+    return (
+      <div
+        className={`inline flex h-fit w-fit items-center 
+        gap-x-2 rounded-2xl bg-white p-2 pr-4`}
+      >
+        <div className="grid gap-y-1">
+          <p className="text-xs md:text-sm text-white">
+            ₦{amount}
+          </p>
+        </div>
+      </div>
+    );
+}

@@ -19,14 +19,13 @@ export function WaitlistSection() {
       <div className='grid gap-4'>
         <div className='grid'>
           <h2 className='text-center text-3xl md:text-4xl'>
-            Be a member of Hamzry Growing Community
+            Be a member of Hamzry's growing community.
           </h2>
         </div>
         <p className='text-center text-sm'>
           Are you tired of the traditional job market and looking for a more
           flexible and rewarding way to work? Work with the largest network of
-          independent professionals and get things done-from quick turnarounds
-          to big transformations.
+          business owners looking for talented freelancers.
         </p>
         <div className='flex justify-between pt-4'>
           <button

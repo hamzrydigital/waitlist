@@ -12,7 +12,7 @@ export function HeroSection() {
               A marketplace for digital services
             </h1>
             <h2 className='text-center text-3xl font-bold lg:text-4xl'>
-              Hamzry is new
+              The future of digital services is here!
             </h2>
           </div>
 
@@ -31,7 +31,11 @@ export function HeroSection() {
           src={heroHome}
           fill
           alt='Hero Image'
-          style={{ objectFit: 'cover', opacity: '0.9' }}
+          style={{
+            objectFit: 'cover',
+            opacity: '85%',
+            backgroundColor: 'rgba(0, 0, 0, 0.85)',
+          }}
           placeholder='blur'
         />
       </div>

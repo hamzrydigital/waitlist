@@ -26,7 +26,11 @@ export function WaitlistHeroSection({
         src={heroImage}
         fill
         alt='Hero Image'
-        style={{ objectFit: 'cover', opacity: '85%' }}
+        style={{
+          objectFit: 'cover',
+          opacity: '85%',
+          backgroundColor: 'rgba(0, 0, 0, 0.85)',
+        }}
         placeholder='blur'
       />
 
