@@ -19,7 +19,7 @@ export function WaitlistSection() {
       <div className='grid gap-4'>
         <div className='grid'>
           <h2 className='text-center text-3xl md:text-4xl'>
-            Be a member of Hamzry's growing community.
+            Be a member of Hamzry&apos;s growing community.
           </h2>
         </div>
         <p className='text-center text-sm'>

@@ -19,7 +19,7 @@ export default function Index() {
         title=" Are you a talented freelancer? We&apos;ve got jobs for you!"
         description="Hamzry is a new platform that connects top clients from all over the
         world to"
-        span="Nigerian Freelancers."
+        highlightedDescription="Nigerian Freelancers."
         buttonText="Join the waitlist"
       />
 

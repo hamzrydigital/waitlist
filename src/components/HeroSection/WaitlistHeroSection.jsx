@@ -12,7 +12,7 @@ export function WaitlistHeroSection({
   heroImage,
   tagLine,
   description,
-  span,
+  highlightedDescription,
   buttonText,
 }) {
   const [email, setEmail] = useState('');
@@ -47,7 +47,8 @@ export function WaitlistHeroSection({
 
           {/* To place description text */}
           <p className='mx-auto max-w-md text-center text-sm text-white'>
-            {description} <span className='text-green-400'>{span}</span>
+            {description}{' '}
+            <span className='text-green-400'>{highlightedDescription}</span>
           </p>
         </div>
 
@@ -79,7 +80,6 @@ export function WaitlistHeroSection({
 WaitlistHeroSection.propTypes = {
   title: PropTypes.string.isRequired,
   tagLine: PropTypes.string.isRequired,
-  span: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   buttonText: PropTypes.string.isRequired,
 };

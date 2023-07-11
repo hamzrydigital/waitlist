@@ -63,7 +63,6 @@ export default function Index() {
           Experience the time and energy-saving benefits of hamzry, where
           finding and hiring top talent for your business is faster, easier, and
           more cost effective than ever before."
-          buttonText="Join the waitlist"
         />
       </PageMargin>
 

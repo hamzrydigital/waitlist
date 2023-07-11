@@ -29,5 +29,4 @@ OfferingSection.propTypes = {
   tagLine: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  buttonText: PropTypes.string.isRequired,
 };
