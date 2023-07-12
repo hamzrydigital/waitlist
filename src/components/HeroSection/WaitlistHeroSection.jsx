@@ -28,19 +28,19 @@ export function WaitlistHeroSection({
         alt='Hero Image'
         style={{
           objectFit: 'cover',
-          opacity: '85%',
-          backgroundColor: 'rgba(0, 0, 0, 0.85)',
+          opacity: '80%',
+          backgroundColor: 'rgba(0, 0, 0, 0.45)',
         }}
         placeholder='blur'
       />
 
-      <div className='z-10 grid place-items-center gap-y-10 text-white'>
+      <div className='z-10 grid place-items-center gap-y-10 py-9 text-white bg-blend-overlay md:py-0'>
         <div className='grid max-w-3xl gap-y-4'>
           <div className='grid place-items-center gap-2'>
-            <h1 className='text-center text-xs uppercase tracking-widest'>
+            <h1 className='text-center text-xs font-bold uppercase tracking-widest'>
               {tagLine}
             </h1>
-            <h2 className='w-5/6 text-center text-3xl font-bold lg:text-4xl'>
+            <h2 className='w-5/6 py-6 text-center text-3xl font-bold md:py-0 lg:text-4xl'>
               {title}
             </h2>
           </div>
